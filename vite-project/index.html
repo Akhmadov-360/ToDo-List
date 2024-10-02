@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body class="bg-gray-100 flex justify-center items-center h-screen">
+    <div class="w-full max-w-xs">
+      <h1 class="text-center text-3xl font-bold mb-4">To-Do List</h1>
+      <div class="flex items-center mb-4">
+        <input type="text" id="new-task" class="border border-gray-300 p-2 rounded w-full" placeholder="Add new task...">
+        <button id="add-task-btn" class="bg-blue-500 text-white ml-2 px-4 py-2 rounded text-center">+</button>
+      </div>
+      <ul id="task-list" class="bg-white shadow-md rounded p-4">
+        
+      </ul>
+    </div>
+    <script type="module" src="./src/js/main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
